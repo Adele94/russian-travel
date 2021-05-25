@@ -1,6 +1,10 @@
 .page {
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   background-color: #2A2C2F;
+  padding-left: 16px;
+  padding-right: 16px;
+  min-width: 288px;
+  max-width: 100vw;
 }
 
 
@@ -10,4 +14,5 @@
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
+  list-style: none;
 }

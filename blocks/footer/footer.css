@@ -1,7 +1,17 @@
 .footer {
-  min-height: 350px;
-  background-color: #1f1f1f;
-  padding-top: 60px;
+  margin-top: 64px;
+  padding-bottom: 24px;
   display: flex;
-  box-sizing: border-box;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer li {
+  margin-bottom: 32px;
+}
+
+.footer li:last-of-type {
+  margin-bottom: 48px;
 }

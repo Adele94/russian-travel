@@ -3,4 +3,7 @@
     height: 62.5vw;
     object-fit: cover;
     object-position: center;
+    margin-left: -16px;
+    margin-right: -16px;
+    /*overflow: hidden;*/
 }

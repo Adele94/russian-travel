@@ -7,7 +7,7 @@
   line-height: 20px;
   text-align: center;
   text-decoration-line: underline;
-  margin-left: 84px;
-  margin-right: 18px;
   margin-top: 14px;
+  margin-right: 18px;
+  margin-left: calc(100% - 142px - 22px*2 - 18px);
 }
