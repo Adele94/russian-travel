@@ -2,8 +2,15 @@
   background-color: #2A2C2F; 
   object-position: center;
   width: 100%;
-  height: 42px;
   padding-top: 16px;
   display: flex;
   flex-direction: row;
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 28px;
+  }
+}
+
+

@@ -4,8 +4,22 @@
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     background-color: #2A2C2F;
     text-align: center;
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
+}
+
+@media screen and (min-width: 768px) {
+.lead__subtitle  {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+.lead__subtitle  {
+    margin-bottom: 64px;
+  }
 }

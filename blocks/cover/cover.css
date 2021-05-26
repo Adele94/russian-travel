@@ -7,6 +7,7 @@
   position: relative;
   margin:0 -16px;
   z-index: 1; 
+  box-sizing: border-box;
 }
 
 .cover::before {
@@ -24,4 +25,13 @@
 
 .cover:hover::before {
   opacity: 0.8;
+}
+
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin: 0 auto ;
+    max-width: 1184px;
+    max-height: 750px;
+  }
 }

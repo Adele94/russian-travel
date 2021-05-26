@@ -7,3 +7,27 @@
     margin-right: -16px;
     /*overflow: hidden;*/
 }
+
+@media screen and (min-width: 768px) {
+  .lead__image {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(1024px - 2*48px);
+    height:  calc((1024px - 2*48px) * 0.625);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__image {
+      margin:0 100px;
+      width: calc(1280px - 2*148px);
+      height:  calc((1280px - 2*148px) * 0.625);
+    }
+  }
