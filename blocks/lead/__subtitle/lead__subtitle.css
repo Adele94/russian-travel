@@ -8,6 +8,7 @@
     background-color: #2A2C2F;
     text-align: center;
     margin: 0 auto 40px;
+    max-width: 640px;
 }
 
 @media screen and (min-width: 768px) {

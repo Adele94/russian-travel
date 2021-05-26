@@ -5,7 +5,8 @@
   width: 100vw;
   height: 62.5vw;
   position: relative;
-  margin:0 -16px;
+  margin: 0 -16px;
+  margin-top: 41px;
   z-index: 1; 
   box-sizing: border-box;
 }
@@ -27,11 +28,22 @@
   opacity: 0.8;
 }
 
+@media screen and (min-width: 768px) {
+  .cover {
+    margin: 65px -24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin: 92px -48px;
+  }
+}
 
 @media screen and (min-width: 1280px) {
   .cover {
-    margin: 0 auto ;
+    margin: 92px auto;
     max-width: 1184px;
-    max-height: 750px;
+    max-height: 740px;
   }
 }
