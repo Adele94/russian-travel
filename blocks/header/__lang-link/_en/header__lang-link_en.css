@@ -1,19 +1,14 @@
-.header_lang-link_en {
-  color: #FFFFFF;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+.header__lang-link_en {
   font-size: 18px;
   line-height: 1.11;
-  text-align: center;
   margin-top: 14px;
-  text-decoration: none;
   width: 22px;
   height: 20px;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
-  .header_lang-link_en {
+  .header__lang-link_en {
     width: 29px;
     height: 28px;
     font-size: 24px;
