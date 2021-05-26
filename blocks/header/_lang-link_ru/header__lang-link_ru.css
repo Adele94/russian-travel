@@ -1,4 +1,4 @@
-.header__lang-link_en {
+.header_lang-link_ru {
   color: #FFFFFF;
   font-family: Inter;
   font-style: normal;
@@ -6,18 +6,21 @@
   font-size: 18px;
   line-height: 1.11;
   text-align: center;
+  text-decoration-line: underline;
   margin-top: 14px;
-  text-decoration: none;
+  margin-right: 18px;
+  margin-left: calc(100% - 142px - 22px*2 - 18px);
   width: 22px;
   height: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  .header__lang-link_en {
-    width: 29px;
+  .header_lang-link_ru {
+    width: 30px;
     height: 28px;
     font-size: 24px;
     line-height: 1.17;
     margin-top: 18px;
+    margin-left: calc(100% - 176px - 30px - 29px - 18px);
   }
 }
