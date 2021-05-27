@@ -8,11 +8,13 @@
     color: #AAAAAA;
     margin-top: 32px;
     margin-bottom: 12px;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (min-width: 768px) {
   .place__url-heading {
-    margin: 0 auto 12px;
+    margin: 0 0 12px;
   }
 }
 

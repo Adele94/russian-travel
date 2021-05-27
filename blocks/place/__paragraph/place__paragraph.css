@@ -5,6 +5,8 @@
     font-size: 16px;
     line-height: 1.63;
     color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
 }
 
 .place__paragraph:first-of-type {

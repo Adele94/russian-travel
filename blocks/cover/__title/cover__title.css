@@ -9,6 +9,7 @@
   margin: 33px 16px 16px;
   text-decoration: none;
   position: absolute;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (min-width: 768px) {

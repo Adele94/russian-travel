@@ -7,7 +7,9 @@
   font-size: 10px;
   line-height: 1.4;
   letter-spacing: 0.15em;
-  margin-top: 8px;
+  margin: 8px auto 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (min-width: 1280px) {

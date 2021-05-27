@@ -8,7 +8,9 @@
   background-color: #2A2C2F;
   text-align: center;
   margin: 48px auto 16px;
+  padding: 0;
   justify-content: center;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (min-width: 768px) {

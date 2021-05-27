@@ -8,6 +8,7 @@
     color: #FFFFFF;
     position: absolute;
     margin: 119px 16px;
+    -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (min-width: 768px) {
