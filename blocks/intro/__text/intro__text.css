@@ -1,8 +1,8 @@
 .intro__text {
   color: #FFFFFF;
-  margin: 40px 0 0;
+  margin: 40px 16px 0;
   padding: 0;
-  font-family: Inter;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -10,8 +10,21 @@
   -webkit-font-smoothing: antialiased;
 }
 
+@media screen and (min-width: 768px) {
+  .intro__text {
+    margin-left: 24px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .intro__text {
+    margin-left: 48px;
     max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    margin-left: 148px;
   }
 }

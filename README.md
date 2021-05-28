@@ -1,5 +1,9 @@
 # Проект: Путешествие по России
 
+**Интро**
+
+* [Ссылка на проект](https://adele94.github.io/russian-travel/index.html)
+
 ### Обзор
 * Интро
 * Figma

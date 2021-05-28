@@ -1,5 +1,5 @@
 .footer {
-  margin-top: 64px;
+  margin: 64px 16px 0;
   padding-bottom: 24px;
   display: flex;
   flex-direction: column;
@@ -8,17 +8,11 @@
   flex-wrap: wrap;
 }
 
-.footer li {
-  margin-bottom: 32px;
-}
-
-.footer li:last-of-type {
-  margin-bottom: 48px;
-}
-
 @media screen and (min-width: 768px) {
   .footer {
     margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
     flex-direction: row;
   }
 }
@@ -26,5 +20,7 @@
 @media screen and (min-width: 1024px) {
   .footer {
     margin-top: 92px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }

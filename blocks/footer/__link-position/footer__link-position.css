@@ -1,0 +1,13 @@
+.footer__link-position {
+  margin-bottom: 32px;
+}
+  
+.footer__link-position:last-of-type {
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__link-position {
+    display: inline;
+  }
+}

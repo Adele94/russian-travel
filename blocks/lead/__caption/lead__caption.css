@@ -1,19 +1,31 @@
 .lead__caption {
   color: #fff;
   text-transform: uppercase;
-  font-family: Inter;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 1.4;
   letter-spacing: 0.15em;
-  margin: 8px auto 0;
+  margin: 8px 0 0 16px;
   padding: 0;
   -webkit-font-smoothing: antialiased;
 }
 
+@media screen and (min-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    margin-left: 48px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .lead__caption {
-    margin-left: 100px;
+    margin-left: 148px;
   }
 }

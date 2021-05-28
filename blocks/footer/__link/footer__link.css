@@ -1,5 +1,5 @@
 .footer__link {
-  font-family: Inter;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -7,6 +7,19 @@
   color: #FFFFFF;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
+  transition: opacity 0.1s linear;
+}
+
+.footer__link {
+  margin-bottom: 32px;
+}
+
+.footer__link:last-of-type {
+  margin-bottom: 48px;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {

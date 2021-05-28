@@ -3,31 +3,22 @@
     height: 62.5vw;
     object-fit: cover;
     object-position: center;
-    margin-left: -16px;
-    margin-right: -16px;
     box-sizing: border-box;
-}
-
-@media screen and (min-width: 768px) {
-  .lead__image {
-    margin-left: -24px;
-    margin-right: -24px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__image {
-    margin-left: 0;
-    margin-right: 0;
-    width: calc(1024px - 2*48px);
-    height:  calc((1024px - 2*48px) * 0.625);
+    margin-left: 48px;
+    margin-right: 48px;
+    width: calc(100% - 2*48px);
+    height:  calc((100% - 2*48px) * 0.625);
   }
 }
 
 @media screen and (min-width: 1280px) {
     .lead__image {
-      margin:0 100px;
-      width: calc(1280px - 2*148px);
-      height:  calc((1280px - 2*148px) * 0.625);
+      margin: 0 148px;
+      width: calc(100% - 2*148px);
+      height:  calc((100% - 2*148px) * 0.625);
     }
   }
